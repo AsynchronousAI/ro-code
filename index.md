@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# What is it?
 
-You can use the [editor on GitHub](https://github.com/coolpro200021/ro-code/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Ro-code is a advanced - yet simple way to use Visual Studio Code to develop your roblox games. It works by reading your game every 30 seconds and sending it back to VS using a random code generated.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installing:
+### Installing Ro-Code for Visual Studio
+- If you dont have visual studio get it [here](https://visualstudio.microsoft.com/). 
+- Head over to *Extentions* and search Ro-Code, The first option by unexex studios is the one you should install.
 
-### Markdown
+### Installing Ro-Code for Roblox Studio
+- The roblox plugin has been installed by the VS extention, So your good to go!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Connecting:
 
-```markdown
-Syntax highlighted code block
+### Creating your Visual Studio Project
+- Create a new folder, Anywhere and open it with visual studio code.
+- Now click Ctrl+Shift+P (Cmd+Shift+P) and type "Ro-Code Initialize"
+- Head over to your output, A number will be given. Copy the number.
 
-# Header 1
-## Header 2
-### Header 3
+### Exporting from Roblox Studio
+- Go to any roblox game and open the Ro-Code plugin
+- Paste in the number you copied and click Connect
 
-- Bulleted
-- List
+Within 30 seconds all of your scripts should be re-written into visual studio code.
 
-1. Numbered
-2. List
+**Possible errors**
+During this problem some errors can occur here are all the errors and how to fix them:
 
-**Bold** and _Italic_ and `Code` text
+- Https 500 (Output error) : Report this as this means that the plugin is not functional
+- _ scripts named _ were found, Please give each object a individual name (Output warning) : Rename all your scripts to individual names, Not doing so can cause corruption. 
+- Invalid Code (Plugin error) : Make sure to paste the code correctly.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/coolpro200021/ro-code/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
