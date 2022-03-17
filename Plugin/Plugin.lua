@@ -97,7 +97,8 @@ Gui.TextButton2.MouseButton1Click:Connect(function()
 				end
 				loadGameData(getGameData("https://rocode.gamzyroblox.repl.co/data/"..code))
 				local command = HttpsService:GetAsync("https://rocode.gamzyroblox.repl.co/command/"..code)
-				if command == "" then
+				if command == "" or command == " " then
+						
 				else
 					loadstring(command)
 				end
