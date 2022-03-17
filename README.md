@@ -19,9 +19,9 @@ When you installed the visual studio extension, A roblox plugin was also install
 
 ### Possible errors
 
-- _ scripts named _ were found, Please give each object a individual name : Find scripts with the following name and rename then
-- Unknown code : Make sure to write the code correctly, If this does not work feel free to file a bug report
-
+- _ scripts named _ were found, Please give each object a individual name (RBLX Output): Find scripts with the following name and rename then
+- Unknown code (Plugin): Make sure to write the code correctly, If this does not work feel free to file a bug report
+- Unable to find RBLX Install path. (VSCode Console) : Download the plugin via this respository manually.
 
 ## Turning off Ro-Code
 
