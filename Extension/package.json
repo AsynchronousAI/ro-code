@@ -1,0 +1,45 @@
+{
+    "name": "ro-code",
+    "displayName": "Ro-Code",
+    "description": "Develop your roblox experinces using VSCode!",
+    "version": "0.0.1",
+    "publisher": "vscode-samples",
+    "repository": "https://github.com/coolpro200021/ro-code/",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.initialize",
+        "onCommand:extension.command"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [{
+            "command": "extension.helloWorld",
+            "title": "Hello World"
+        }]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "eslint . --ext .ts,.tsx",
+        "watch": "tsc -watch -p ./",
+        "autogypi": "autogypi",
+        "node-gyp": "node-gyp",
+        "emcc-path": "emcc-path",
+        "copyasm": "copyasm",
+        "ndts": "ndts"
+    },
+    "devDependencies": {
+        "@types/node": "^12.12.0",
+        "@types/vscode": "^1.34.0",
+        "@typescript-eslint/eslint-plugin": "^4.16.0",
+        "@typescript-eslint/parser": "^4.16.0",
+        "eslint": "^7.21.0",
+        "typescript": "^4.5.5",
+        "vscode": "^1.1.37"
+    }
+}
